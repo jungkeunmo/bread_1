@@ -1,0 +1,7 @@
+extends ../layouts/main.pug
+
+block content
+    each data in breadList
+        h3 빵: #{data.nema}
+        h3 가격: #{data.price} 원
+        hr
